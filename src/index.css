@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    box-shadow: border-box;
+}
+
+body{
+    color:white;
+    background-color: rgb(17 24 39);
+}
+
+button:disabled{
+    background-color: rgb(253 164 175);
+}
+
+button:disabled:hover{
+    background-color: rgb(253 164 175); 
+}
+
+.nav-bar{
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.5);
+    background-color: rgb(13, 24, 35);
+}
+
+.movie{
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.5);
+}
+
+.movie:hover .movie-over{
+    transform: translateY(0%);
+}
